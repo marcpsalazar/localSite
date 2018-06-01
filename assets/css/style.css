@@ -1,0 +1,142 @@
+body {
+text-align: center;
+color: white;
+font-family: 'Cormorant Garamond', serif;
+}
+
+body, html {
+  height: 100%
+}
+
+p {
+font-size: 18px;
+}
+
+.navbar {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./lemongrass.jpg");
+
+    /* Set a specific height */
+    height: 10000px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scroller {
+height: auto;
+padding: 15px;
+}
+
+
+
+#welcome {
+  font-size: 70px;
+  color: rgba(240, 245, 244, 0.02);
+  font-family: 'Cormorant Garamond', serif;
+  animation-name: welcome;
+  animation-delay: 1s;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  margin-bottom: 0;
+}
+@keyframes welcome {
+  from {color: rgba(240, 245, 244, 0.02);}
+  to {color: black;}
+}
+
+#artGin {
+  font-size: 60px;
+  color: rgba(240, 245, 244, 0.02);
+  font-family: 'Cormorant Garamond', serif;
+  animation-name: art;
+  animation-delay: 4s;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  margin-bottom: 0;
+}
+@keyframes art {
+  from {color: rgba(240, 245, 244, 0.02);}
+  to {color: black;}
+}
+
+#gJoint {
+  font-size: 60px;
+  color: rgba(240, 245, 244, 0.02);
+  font-family: 'Cormorant Garamond', serif;
+  animation-name: joint;
+  animation-delay: 6s;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  margin-bottom: 60px;
+}
+@keyframes joint {
+  from {color: rgba(240, 245, 244, 0.02);}
+  to {color: black;}
+}
+
+
+/* #question {
+  font-size: 30px;
+  color: rgba(240, 245, 244, 0.02);
+  font-family: 'Cormorant Garamond', serif;
+  animation-name: question;
+  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  margin-bottom: 10px;
+}
+@keyframes question {
+  from {color: rgba(240, 245, 244, 0.02);}
+  to {color: black;}
+} */
+
+#contentLink {
+  font-size: 25px;
+  color: rgba(240, 245, 244, 0.02);
+  font-family: 'Cormorant Garamond', serif;
+  animation-name: contents;
+  animation-delay: 8s;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  margin-bottom: 30px;
+}
+@keyframes contents {
+  from {color: rgba(240, 245, 244, 0.02);}
+  to {color: rgba(46, 59, 119, 0.9);}
+}
+#gFeature {
+  padding-top: 50px;
+}
+
+p {
+  font-weight: bold;
+  line-height: 30px;
+}
+/* #gtFlight {
+  text-align: left;
+} */
+#subLink {
+  color: rgba(46, 59, 119, 0.9);
+  font-size: 20px;
+}
+dd {
+  margin-left: 5px;
+  font-size: 13px;
+  }
+#directional {
+  padding-top: 90px;
+}
