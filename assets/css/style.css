@@ -49,7 +49,7 @@ padding: 15px;
   font-family: 'Cormorant Garamond', serif;
   animation-name: welcome;
   animation-delay: 1s;
-  animation-duration: 7s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   margin-bottom: 0;
 }
@@ -63,8 +63,8 @@ padding: 15px;
   color: rgba(240, 245, 244, 0.02);
   font-family: 'Cormorant Garamond', serif;
   animation-name: art;
-  animation-delay: 4s;
-  animation-duration: 7s;
+  animation-delay: 2s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   margin-bottom: 0;
 }
@@ -78,8 +78,8 @@ padding: 15px;
   color: rgba(240, 245, 244, 0.02);
   font-family: 'Cormorant Garamond', serif;
   animation-name: joint;
-  animation-delay: 6s;
-  animation-duration: 7s;
+  animation-delay: 3s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   margin-bottom: 60px;
 }
@@ -109,8 +109,8 @@ padding: 15px;
   color: rgba(240, 245, 244, 0.02);
   font-family: 'Cormorant Garamond', serif;
   animation-name: contents;
-  animation-delay: 8s;
-  animation-duration: 7s;
+  animation-delay: 4s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   margin-bottom: 30px;
 }
